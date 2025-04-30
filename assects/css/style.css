@@ -1,0 +1,244 @@
+
+/* css start here */
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Khand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+  }
+
+
+  a {
+    text-decoration: none;
+  }
+
+  ul {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .mr-56{
+    margin-right: 56px;
+  }
+  
+.pt-214{
+  padding-top:214px;
+}
+.pb-211{
+  padding-bottom:211px;
+}
+
+/* header css start */
+
+.header-area{
+  background: #000000;
+  padding-left:30px;
+  padding-right:30px;
+  position:relative;
+
+}
+
+.main-menu ul {
+  list-style-type: none;
+
+}
+.main-menu ul li{
+  display: inline-block;
+}
+
+.main-menu ul li a {
+	font-size: 19px;
+	font-weight: 400;
+	font-family: "Jost", sans-serif;
+	color: #DCDCDC;
+	display: inline-block;
+	margin-right: 43px;
+	padding: 30px 0px;
+  transition:.2s;
+}
+
+.main-menu ul li a:hover{
+  color: #FFD026;
+}
+
+.header-btn a {
+	color: #000000;
+	font-size: 12px;
+	font-family: "Jost", sans-serif;
+	font-weight: 900;
+	padding: 15px 33px;
+}
+
+.header-btn .btn-one{
+  background-color: #F1F1F1;
+  transition: .2s;
+}
+ 
+.btn-one:hover{
+  background-color:#FFD026;
+}
+
+.header-btn .btn-two{
+   background-color: #FFD026;
+   margin-left:24px;
+   transition: .2s;
+}
+
+.btn-two:hover{
+  background-color: #F1F1F1;
+
+}
+
+.border-bottom{
+  border-bottom:1px solid #fff;
+}
+
+/* header end */
+
+/* hero css start */
+
+ .hero-left h2{
+  font-size: 114px;
+  font-family: "Khand", sans-serif;
+  color: #FFFFFF;
+  font-weight: 700;
+}
+
+.hero-left h2 span{
+  color:#FFD026;
+  font-weight: 700;
+}
+
+.hero-left{
+  font-family: "Jost", sans-serif;
+  font-weight: 600;
+  font-size:28px;
+  color: #FFFFFF;
+}
+.hero-left h4{
+  font-size: 28px;
+  font-weight: 600;
+  font-family: "Jost", sans-serif;
+  color: #FFFFFF;
+  margin-bottom:18px;
+}
+
+.hero-left h4 span{
+  color: #FFD026;
+}
+.hero-left p {
+	font-size: 18px;
+	font-weight: 400;
+	font-family: "Roboto", sans-serif;
+	line-height: 137%;
+}
+
+.hero-left > a {
+	background-color: #FFD026;
+	color: #3A2F06;
+	font-family: "Jost", sans-serif;
+	font-size: 28px;
+	font-weight: 900;
+	display: inline-block;
+	padding: 21px 45px;
+	margin-top: 60px;
+	margin-bottom: 83px;
+}
+
+.hero-area {
+	background: #040404;
+}
+
+.hero-right img {
+	max-width: 100%;
+}
+
+.token-item {
+	text-align: center;
+}
+
+.token-item img {
+	margin-bottom: 23px;
+}
+
+.token-item > a {
+	display: block;
+  color: #FFFFFF;
+  background-color: #232323;
+  padding:10px 22px;
+  font-size:13px;
+  font-family: "Jost", sans-serif;
+  font-weight:900;
+}
+
+.hero-right {
+	padding-top: 90px;
+	text-align: end;
+	position: relative;
+	z-index: 1;
+}
+
+.hero-bg {
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	right: 95px;
+}
+/* hero css end */
+
+
+/* utilitis css start */
+
+
+.utilitis-area{
+  background-color: #000000;
+}
+
+.utilitis-left h2 span{
+   color: #FFD026;
+}
+
+.utilitis-left h2{
+  font-size: 54px;
+  font-family: "Khand", sans-serif; 
+  color: #FFFFFF;
+  font-weight: 400;
+  margin-bottom:63px;
+}
+
+.utilitis-left a{
+  background-color: #FFD026;
+  color: #3A2F06;
+  font-family: "Jost", sans-serif;
+  font-size: 28px;
+  font-weight: 900;
+  display: inline-block;
+  padding:21px 45px;
+  margin-top: 60px;
+}
+
+
+/* utilitis css end */
+
+
+
+
+
+
+
+
+
+/* 
+
+  font-family: "Jost", sans-serif;
+  font-family: "Khand", sans-serif; 
+  
+  */
